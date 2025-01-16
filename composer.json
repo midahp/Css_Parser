@@ -20,9 +20,12 @@
         }
     ],
     "require": {
-        "php": "^7.4 || ^8"
+        "php": "^7.4 || ^8",
+        "sabberworm/php-css-parser": ">=7.0.4 <8.0.0"
     },
-    "require-dev": {},
+    "require-dev": {
+        "horde/test": "^3 || dev-FRAMEWORK_6_0"
+    },
     "suggest": {
         "ext-mbstring": "*"
     },
