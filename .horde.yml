@@ -26,6 +26,14 @@ license:
 dependencies:
   required:
     php: ^7.4 || ^8
+    composer:
+      sabberworm/php-css-parser: ">=7.0.4 <= 8.0.0"
   optional:
     ext:
       mbstring: '*'
+  dev:
+    composer:
+      horde/test: ^3
+autoload:
+  classmap:
+    - lib/
